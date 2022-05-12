@@ -3310,12 +3310,12 @@
     url-join "4.0.1"
     uuid "^3.1.0"
 
-"@strapi/provider-email-mailgun@4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@strapi/provider-email-mailgun/-/provider-email-mailgun-4.1.1.tgz#1b0492b265155bcd9f6b3cb6f99882039936978d"
-  integrity sha512-BMZua0oxoCQOtCKEWjqGIBRILPZH2dwKIr7BdPuBcI9chc1K4D6F3RoHuP27uTQ9+XwgmmxmmE5abR1Y4NZrHw==
+"@strapi/provider-email-mailgun@4.1.10":
+  version "4.1.10"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-email-mailgun/-/provider-email-mailgun-4.1.10.tgz#506337006c288fc700069022a64bea55cf1dd201"
+  integrity sha512-C9tLXdQJrlJLReQw0yB2++0PoU2AlUFTtkzAqb50Qdu3lCOnrXvxW2ghYOSy2sF0tQ1HcrszrWlfADJj2o0L4w==
   dependencies:
-    "@strapi/utils" "4.1.1"
+    "@strapi/utils" "4.1.10"
     mailgun-js "0.22.0"
 
 "@strapi/provider-email-sendmail@4.1.1":
@@ -3410,6 +3410,17 @@
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.1.1.tgz#f85df7d35b5c04dfaf5dec5bda9c93e13554213c"
   integrity sha512-Tvibxvy9E5Q7qT5Y9ea4o1vzFReJ+JXwuD/Cl4IujWUL3t1+hA3qT3UMm1kXb0CC+RIqDsDc7ST+7RJMnTnCTg==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.24.0"
+    http-errors "1.8.0"
+    lodash "4.17.21"
+    yup "0.32.9"
+
+"@strapi/utils@4.1.10":
+  version "4.1.10"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.1.10.tgz#48bfdbe0cff6b0ca3bbc3af26c72beb2fd433116"
+  integrity sha512-qmsUsml92YHasi0lazbHbU8xfgxdES8tC2Mn6r6wNzKF7HdG3LPma0PGnaWvJ+0Kjn/tNC0Tl3SFyxNVaGda9w==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.24.0"
